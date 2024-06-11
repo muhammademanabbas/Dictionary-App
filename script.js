@@ -75,7 +75,7 @@ function displaySearchHistory() {
         </div>`
         // <p class="clear-one-search">Clear</p>
      }
-     console.log(historyWords);
+     //console.log(historyWords);
     AllSearches.innerHTML  =  historyWords ;
 }
 
