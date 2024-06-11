@@ -4,21 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <title>Dictionary</title>
   </head>
   <body>
     <nav>
       <h1 id="title">Find Meaning of Word</h1>
+      <i class="active search-history ri-chat-history-line"></i>
     </nav>
+    <div class="check-search-history">
+      <div class="close-container">
+        <p class="close-p">close</p>
+        <i class="active ri-close-large-line"></i>
+      </div>
+      <div id="searches">
+        <div>
+          <!-- <p class="searched">Your Search</p>
+          <p class="clear-one-search">Clear</p> -->
+        </div>
+      </div>
+      <div class="delete-all">
+        clear all <i class="active ri-delete-bin-6-line"></i>
+      </div>
+    </div>
     <main id="landing-page">
       <form class="container">
         <div class="search-box">
           <input type="text" id="search" placeholder="Search for a word" />
           <button class="btn41-43 search-btn btn-42">Search</button>
         </div>
-        <p id="result">
-          Definition .....
-        </p>
+        <p id="result">Definition .....</p>
       </form>
     </main>
 
